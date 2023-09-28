@@ -1,4 +1,4 @@
-import picture from "@/public/inviteTeacher.png";
+import picture from "@/public/inviteTeacher.jpg";
 
 export default function Home() {
   return (
