@@ -3,8 +3,8 @@ import YouTube from "react-youtube";
 
 export default function Home() {
   const options = {
-    width: "full",
-    height: "300",
+    width: "80%",
+    height: "350",
     playerVars: {
       autoplay: 1,
     },
@@ -12,7 +12,11 @@ export default function Home() {
   return (
     <div className="h-screen">
       <div className="w-full h-full flex justify-center items-center">
-        <YouTube videoId="czYhq9eFLHQ" opts={options} />
+        <YouTube
+          videoId="JZfjpoLrDd4"
+          opts={options}
+          className="w-full max-w-[700px] flex justify-center"
+        />
       </div>
     </div>
   );
